@@ -1,0 +1,149 @@
+{
+  "profile" : [
+    {
+      "feedname": "Oliver",
+      "topContent": "Hop to the Top",
+      "rewardsContent": "Start getting rewards by completing your goal activities",
+      "rewardsClaim": "23hrs 15 mins",
+      "challenge": "Science Challenge"
+    }
+  ], 
+  "feed" : [
+    {
+      "icon": "./images/feedprofile.svg",
+      "studentsname": "Andrew",
+      "time": "23 minutes ago",
+      "description": "Hello peers, i’m here to share my achievements. i made during this academic year :).was the top performing kid of the grade 6",
+      "personimg": "./images/andrewpic.svg",
+      "isPersonImg": true,
+      "personfirstimg": "./images/firstpic.svg",
+      "personsecimg": "./images/secondpic.svg",
+      "personthirdimg": "./images/thirdpic.svg",
+      "reactIcon": "./images/threereaction.svg",
+      "isImage": true,
+      "isCommentSection": false,
+      "isGroupSection": false,
+      "isScribbleSection": false,
+      "reactions": "6",
+      "comments": "5"
+
+    },
+    {
+      "icon": "./images/squadprofile.svg",
+      "studentsname": "Liam",
+      "time": "52 minutes ago",
+      "description": "Hello peers, i’m here to share my achievements. i made during this academic year :)",
+      "reactIcon": "./images/tworeaction.svg",
+      "isCommentSection": false,
+      "isGroupSection": false,
+      "isScribbleSection": false,
+      "reactions": "5",
+      "comments": "10"
+    },
+    {
+      "icon": "./images/charlie.svg",
+      "studentsname": "Math Squad",
+      "time": "Jun 23, 2023, 10:00 pm",
+      "description": "Hello peers, i’m here to share my achievements. i made during this academic year :)",
+      "reactIcon": "./images/tworeaction.svg",
+      "isCommentSection": false,
+      "isGroupSection": false,
+      "isScribbleSection": false,
+      "reactions": "25",
+      "comments": "8"
+    },
+    {
+      "icon": "./images/feedprofile.svg",
+      "studentsname": "Noah",
+      "time": "Jan 23, 2023, 8:15 pm",
+      "description": "Hello peers, i’m here to share my achievements. i made during this academic year :). I was the top performing kid of the grade 6",
+      "videoMp4": "./images/mov_bbb.mp4",
+      "videoOgg": "https://www.w3schools.com/html/mov_bbb.ogg",
+      "isVideo": true,
+      "reactIcon": "./images/threereaction.svg",
+      "isCommentSection": false,
+      "isGroupSection": false,
+      "isScribbleSection": false,
+      "reactions": "11",
+      "comments": "20"
+    },
+    {
+      "icon": "./images/squadprofile.svg",
+      "studentsname": "Olivia",
+      "time": "32 minutes ago",
+      "description": "Hello peers, i’m here to share my achievements. i made during this academic year :). was the top performing kid of the grade 6",
+      "reactIcon": "./images/tworeaction.svg",
+      "isCommentSection": false,
+      "isGroupSection": false, 
+      "isScribbleSection": false,
+      "reactions": "1",
+      "comments": "12"
+    }
+  ],
+  "squadRequest" : [ 
+    {
+      "icon": "./images/squadprofile.svg",
+      "squadname": "Brad",
+      "school": "5th Grade | Harvard University school..."
+    },
+    {
+      "icon": "./images/charlie.svg", 
+      "squadname": "Tom",
+      "school": "4th Grade | Harvard University school..."
+    }
+  ],
+  "circlesJoin" : [
+    {
+      "image": "./images/rocket.svg",
+      "name": "Math squad",
+      "icon": "./images/rocketglo.svg",
+      "sector": "Public",
+      "members": "250 members"
+    },
+    {
+      "image": "./images/slider2.svg",
+      "name": "Olivia",  
+      "icon": "./images/lock.svg",
+      "sector": "Private",
+      "members": "50 members"
+    },
+    {
+      "image": "./images/rocket.svg",
+      "name": "Math squad",
+      "icon": "./images/rocketglo.svg",
+      "sector": "Public",
+      "members": "250 members"
+    },
+    {
+      "image": "./images/slider2.svg",
+      "name": "Olivia",  
+      "icon": "./images/lock.svg",
+      "sector": "Private",
+      "members": "50 members"
+    },
+    {
+      "image": "./images/rocket.svg",
+      "name": "Math squad",
+      "icon": "./images/rocketglo.svg",
+      "sector": "Public",
+      "members": "250 members"
+    }
+  ],
+  "squadsConnect": [
+    {
+      "icon": "./images/squadliam.svg",
+      "squadsConnectname": "Liam",
+      "school": "6th Grade | Christian Middle..."
+    },
+    {
+      "icon": "./images/squadprofile.svg",
+      "squadsConnectname": "Olivia",
+      "school": "8th Grade | Harvard University..."
+    },
+    {
+      "icon": "./images/charlie.svg",
+      "squadsConnectname": "Noah",
+      "school": "6th Grade | Thomas Jefferson..."
+    }
+  ]
+}

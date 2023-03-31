@@ -1,0 +1,77 @@
+.topsquad-section {
+    width: 100%;
+}
+.topsquad-content {
+    display: grid; 
+    margin-top: 20px;
+    position: relative;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(21px);
+    border-radius: 14px;
+    border: 1px solid #FFFFFF33;
+}
+.topskillssquads-content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px 20px 14px 10px;
+    color: #FFFFFF;
+}
+.messagepopup-imgcontent {
+    position: absolute;
+    margin-top: -45px;
+}
+.topconnect-section {
+    padding: 10px;
+}
+.topprofile-imgcontent {
+    padding-right: 5px;
+}
+.student-topcontent {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 5px;  
+    color: #FFFFFF;
+}
+.university-topcontent {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.5px;
+    color: #A5A5A5;
+}
+.connect-buttoncontent {
+    width: 100px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 28px;
+    border-radius: 8px;
+    border: none !important;  
+    color: #F2F2F2;
+    background: linear-gradient(111.76deg, #0A66C2 27.13%, #00B5D1 90.6%);
+}
+.topseemore-display {
+    display: flex;
+}
+.topsee-content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 6px;
+    padding-right: 10px;
+    color: #FFFFFF;
+}
