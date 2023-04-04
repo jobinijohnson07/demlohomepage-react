@@ -12,9 +12,9 @@ function ProfileSection() {
 
   useEffect(() => {  
     fetch("http://localhost:3001/profile") 
-      .then(response => response.json())
-      .then(data => setProfile(data));
-  }, []);
+      .then(response => response.json()) 
+      .then(data => setProfile(data)); 
+  }, []); 
 
   return ( 
     <div className="profile-section">

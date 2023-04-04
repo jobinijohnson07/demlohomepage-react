@@ -7,7 +7,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    padding: 20px 20px 0px 10px;
+    padding: 20px 20px 0px 16px;
     color: #FFFFFF;
 }
 .squad-content {
@@ -20,7 +20,7 @@
 }
 .top-squadscontent {
     padding: 16px 11px 16px 16px;
-    margin: 13px 10px 0px 10px;
+    margin: 13px 10px 0px 16px;
 }
 .topsec-squadscontent {
     padding: 16px 11px 16px 16px;
@@ -52,6 +52,11 @@
     line-height: 14px;
     padding-bottom: 10px;
     letter-spacing: -0.5px;
+    width: 212px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     color: rgba(255, 255, 255, 0.4);
 }
 .accept-button {

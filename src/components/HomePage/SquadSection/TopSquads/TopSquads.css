@@ -17,7 +17,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    padding: 20px 20px 14px 10px;
+    padding: 20px 20px 14px 16px;
     color: #FFFFFF;
 }
 .messagepopup-imgcontent {
@@ -25,7 +25,7 @@
     margin-top: -45px;
 }
 .topconnect-section {
-    padding: 10px;
+    padding: 16px 16px 0px 16px;
 }
 .topprofile-imgcontent {
     padding-right: 5px;
@@ -46,6 +46,10 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: -0.5px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     color: #A5A5A5;
 }
 .connect-buttoncontent {
@@ -63,6 +67,7 @@
     background: linear-gradient(111.76deg, #0A66C2 27.13%, #00B5D1 90.6%);
 }
 .topseemore-display {
+    padding-top: 23px;
     display: flex;
 }
 .topsee-content {

@@ -8,7 +8,6 @@ import Message from '../../../assets/message.svg';
 import GroupEmoji from '../../../assets/groupemoji.svg';
 import CommentProfile from '../../../assets/commentprofile.svg';
 import EmojiDot from '../../../assets/emojidot.svg';
-import CharlieComment from '../../../assets/charliecomment.svg';
 
 function FeedSection() {
   const [feed, setFeed] = useState([]); 
@@ -39,7 +38,6 @@ function FeedSection() {
  });
 
   setFeed(updateScribbleFeed);
-  console.log("data")
  }
 
  function groupemojifunc(index, value) {
@@ -51,8 +49,8 @@ function FeedSection() {
  });
 
   setFeed(updatedEmojiFeed);
-  console.log("data")
  } 
+
   function switchImg(link, objName, index){
     let updateObj = feed.map((item,i)=>{
       if(i === index){
@@ -164,13 +162,12 @@ function FeedSection() {
                  <div className="commentfeed-content">
                   <div className="row">
                     <div className="col-md-1">
-                      <img className="commentprofile-imgcontent" src={CharlieComment} alt="commentProfile" />
+                      <img className="commentprofile-imgcontent" src={feed.commentprofile} alt="commentProfile" />
                     </div>
                     <div className="col-md-11">
                       <div className="lastscomment-section">
-                       {/* <input className="lastname-content" type="text" name="name" placeholder="Charlie" ><span>Jan 23,2023</span> /> */}
-                        <div className="lastname-content">Charlie <span className="month-content">Jan 23,2023</span></div>
-                        <div className="appreciation-content">Great work Andrew</div>
+                        <div className="lastname-content">{feed.commentName} <span className="month-content">{feed.commentYear}</span></div>
+                        <div className="appreciation-content">{feed.commentFeedback}</div>
                       </div>
                     </div>
                   </div>
@@ -180,12 +177,12 @@ function FeedSection() {
                     <div className="col-md-1">                 
                     </div>
                     <div className="col-md-1">
-                      <img className="commentprofile-imgcontent" src={CommentProfile} alt="commentProfile" />
+                      <img className="commentprofile-imgcontent" src={feed.commentprofile1} alt="commentProfile" />
                     </div>
                     <div className="col-md-10">
                       <div className="lastscomment-section">
-                        <div className="lastname-content">Charlie <span className="month-content">Jan 23,2023</span></div>
-                        <div className="appreciation-content">Thanks!</div>
+                        <div className="lastname-content">{feed.commentName1}<span className="month-content">{feed.commentYear1}</span></div>
+                        <div className="appreciation-content">{feed.commentFeedback1}</div>
                       </div>
                     </div>
                   </div>
@@ -193,12 +190,12 @@ function FeedSection() {
                 <div className="commentfeed-content">
                   <div className="row">
                     <div className="col-md-1">
-                      <img className="commentprofile-imgcontent" src={CharlieComment} alt="commentProfile" />
+                      <img className="commentprofile-imgcontent" src={feed.commentprofile2} alt="commentProfile" />
                     </div>
                     <div className="col-md-11">
                       <div className="lastscomment-section">
-                        <div className="lastname-content">Charlie <span className="month-content">Jan 23,2023</span></div>
-                        <div className="appreciation-content">Great work Andrew</div>
+                        <div className="lastname-content">{feed.commentName2}<span className="month-content">{feed.commentYear2}</span></div>
+                        <div className="appreciation-content">{feed.commentFeedback2}</div>
                       </div>
                     </div>
                   </div>
@@ -208,12 +205,12 @@ function FeedSection() {
                     <div className="col-md-1">                 
                     </div>
                     <div className="col-md-1">
-                      <img className="commentprofile-imgcontent" src={CommentProfile} alt="commentProfile" />
+                      <img className="commentprofile-imgcontent" src={feed.commentprofile3} alt="commentProfile" />
                     </div>
                     <div className="col-md-10">
                       <div className="lastscomment-section">
-                        <div className="lastname-content">Charlie <span className="month-content">Jan 23,2023</span></div>
-                        <div className="appreciation-content">Thanks!</div>
+                        <div className="lastname-content">{feed.commentName3}<span className="month-content">{feed.commentYear3}</span></div>
+                        <div className="appreciation-content">{feed.commentFeedback3}</div>
                       </div>
                     </div>
                   </div>
