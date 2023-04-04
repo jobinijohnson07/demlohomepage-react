@@ -9,10 +9,10 @@ import Learn from '../../../assets/learn.svg';
 
 function ProfileSection() { 
   const [profile, setProfile] = useState([]);
-
+ 
   useEffect(() => {  
     fetch("http://localhost:3001/profile") 
-      .then(response => response.json()) 
+      .then(response => response.json())  
       .then(data => setProfile(data)); 
   }, []); 
 
